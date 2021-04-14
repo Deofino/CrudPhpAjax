@@ -1,0 +1,86 @@
+.black{
+    color: #111;
+}
+p{
+    font-size: max(1.1em,1vw);
+}
+.bold{
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 20px 30px;
+}
+h2{
+    margin: 20px 30px;
+    font-size: max(1.5em,2vw);
+    font-weight: lighter;
+}
+hr{
+    background-color: rgb(124, 122, 122);
+}
+.content{
+    max-width: 95%;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(86, 92, 119, 0.746);
+    top: 0;
+    z-index: 9000;
+}
+.btn-closed{
+    position: absolute;   
+    right: 5%;
+    top: 2%;
+    cursor: pointer;
+}
+#formulario{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+.form-item .form-control{
+    font-size: max(.9em,1vw);
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.form-item{
+    width: 100%;
+    max-width: 47%;
+}
+.btn{
+    width: 100%;
+    overflow: auto;
+}
+.item-msg{
+    max-width: 1000px;
+
+}
+
+.p-valid{
+    font-size: max(1.1em,1vw);
+    color: #00ad5c;
+}
+.p-invalid{
+    font-size: max(.9em,1vw);
+    color: #da3838;
+}
+#li-valid{
+    font-size: max(1.1em,1vw);
+    color: #016637;
+    letter-spacing: .8px;
+    font-weight: 500;
+}
+#li-invalid{
+    font-size: max(1.1em,1vw);
+    color: #a10606;
+    letter-spacing: .8px;
+    font-weight: 500;
+}

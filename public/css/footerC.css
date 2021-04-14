@@ -1,0 +1,84 @@
+footer{
+    background-color: #0a74bb;
+    padding: 15px 0;
+}
+.footer{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer div{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    flex-direction: column;
+    margin-left: -20px;
+}
+.menu li{
+    list-style: none;
+    padding: 5px 0;
+}
+.menu a{
+    text-decoration: none;
+    font-size: .9em;
+    opacity: .7;
+    width: 100%;
+}
+.menu a:hover{
+    opacity: 1;
+    transition: 100ms;
+    color: white;
+}
+.menu h3{
+    letter-spacing: 2px; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.copy{
+    flex-direction: column;
+}
+.copy hr{
+    width: 100%;
+    background-color: #ddd;
+}
+.copy p{
+    text-align: center;
+    align-items: center;
+    color: white;
+    color: #ccc;
+    font-size: max(.9em,1vw);
+}
+.redes h3{
+    opacity: .8;
+    letter-spacing: 2px; 
+    font-weight: bold;
+    font-size: max(1em,1vw);
+    margin-bottom: 10px;
+}
+.redes li{
+    font-size: max(.8em,1vw);
+}
+.sociais a{
+    text-decoration: none;
+    opacity: .8;
+}
+a:hover{
+    color: white;
+    opacity: 1;
+}
+
+.sociais li{
+    padding: 2px 0;
+    margin: 3px 0;
+    list-style: none;
+}
